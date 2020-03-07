@@ -1,4 +1,7 @@
 body{
+    background: url(../src/images/fondo.jpg)
+    no-repeat fixed center center #333;
+    background-size: cover;
     font-size: 16px;
     background-color: #f6aa1c;
 }
@@ -10,9 +13,9 @@ body{
 }
 
 #upper_menu {
-    background-color: #3066be;
+    background-color: #e06e2273;
     height:56px;
-    animation: headerChangeColor 3s infinite;
+    animation: headerChangeColor 4s infinite;
 }
 #upper_menu ul {
     text-align:center;
